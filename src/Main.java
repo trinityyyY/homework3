@@ -447,7 +447,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter phrase: ");
-        String phrase = scan.next();
+        String phrase = scan.nextLine();
+//        String phrase = "qwe rty";
+//        System.out.println("your phrase = " + phrase);
 
         // преобразовали фразу в последовательность битов
         ArrayList<Integer> binaryCode = convertToBinaryStr(phrase);
